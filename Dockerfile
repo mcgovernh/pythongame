@@ -7,7 +7,7 @@ WORKDIR /usr/src/app
 COPY . .
 
 # install dependencies
-RUN pip install --no-cache-dir -r 
+RUN pip install .
 
 # define the port number the container should expose
 EXPOSE 5000
