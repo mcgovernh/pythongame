@@ -13,4 +13,4 @@ RUN pip install --upgrade pip
 EXPOSE 5000
 
 # run the command
-CMD ["python", "./game.py"]
+CMD ["python", "./hello.py"]
